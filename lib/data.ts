@@ -10,16 +10,16 @@
 /* ── BRAND ─────────────────────────────────────────────────────────────────── */
 
 export const BRAND = {
-  name: "ECHO",
+  name: "HYPER",
   /** Shown oversized in the footer. Keep it short — it renders very large. */
-  wordmark: "ECHO",
+  wordmark: "HYPER",
   /** Split across two lines in the hero. */
   headlineTop: "BEYOND DESIGN",
-  headlineBottom: "BUILT TO MATTER",
-  email: "hello@echostudio.com",
-  phone: "+1 (555) 234-5678",
-  location: "New York, NY",
-  timezone: "EST (UTC-5)",
+  headlineBottom: "BY SUMIT",
+  email: "sumit.biswas.pmi.9c@gmail.com",
+  phone: "+91 8017259570",
+  location: "Kolkata, WB",
+  timezone: "IST (GMT+5)",
   availability: "Available for Q1 & Q2 projects",
   /** Short paragraph in the footer's first column. */
   footerNote:
@@ -51,9 +51,9 @@ export const FOOTER_LINKS = [
 ] as const;
 
 export const SOCIALS = [
-  { label: "Instagram", href: "https://instagram.com" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Twitter", href: "https://x.com" },
+  { label: "Instagram", href: "https://www.instagram.com/itz__sxmit?mdxt=Y3hzYm44cTZsNWIy" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/sumit-biswas-b577a9298?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+  { label: "Twitter", href: "https://x.com/MrStrange123456" },
 ] as const;
 
 /* ── HERO ──────────────────────────────────────────────────────────────────── */
@@ -101,7 +101,7 @@ export interface Project {
 export const PROJECTS: readonly Project[] = [
   {
     index: "01",
-    title: "Aether OS",
+    title: "Project LUMINA",
     blurb: "Design system & web app for an AI cloud platform",
     image: "/images/work-1.jpg",
     href: "#",
@@ -110,16 +110,16 @@ export const PROJECTS: readonly Project[] = [
   },
   {
     index: "02",
-    title: "Veloce Motors",
+    title: "ARCUS Motors",
     blurb: "Brand identity & digital showroom for electric vehicles",
     image: "/images/work-2.jpg",
     href: "#",
-    year: "2025",
-    tags: ["Branding", "Web Design"],
+    year: "2029",
+    tags: ["Branding", "Vechiles"],
   },
   {
     index: "03",
-    title: "Lumina Audio",
+    title: "HyperX Audio",
     blurb: "E-commerce experience & spatial 3D showcase for high-end audio",
     image: "/images/work-3.jpg",
     href: "#",
@@ -139,9 +139,9 @@ export interface Stat {
 }
 
 export const STATS: readonly Stat[] = [
-  { value: 8, suffix: "+", label: "Years of experience in the industry" },
-  { value: 77, suffix: "%", label: "Customer satisfaction rate" },
-  { value: 5, suffix: "M", label: "In client revenue growth" },
+  { value: 5, suffix: "+", label: "Years of experience in the industry" },
+  { value: 86, suffix: "%", label: "Customer satisfaction rate" },
+  { value: 5, suffix: "K", label: "In client revenue growth" },
 ] as const;
 
 export const WHY_US = {
@@ -155,8 +155,8 @@ export const WHY_US = {
 
 export const FEATURED_TESTIMONIAL = {
   quote:
-    "Working with them felt personal. The process was smooth, the design was stunning, and everything had meaning.",
-  author: "Client Name",
+    "Working with Hyper was a truly personal experience. Every step felt effortless, the design was exceptional, and every hardwork carried a sense of purpose.",
+  author: " Lukasz Staniewski",
   role: "Founder at Nova Studio",
   avatar: "/images/avatar-featured.jpg",
   image: "/images/testimonial-highlight.jpg",
@@ -183,7 +183,7 @@ export const SERVICES: readonly Service[] = [
   {
     index: "02",
     title: "Branding & Identity",
-    blurb: "Comprehensive brand identity, logo design, visual systems, and brand guidelines.",
+    blurb: "Comprehensive Brand identity, Logo design, visual systems, and Brand guidelines.",
     items: [],
     image: "/images/service-2.jpg",
   },
@@ -196,7 +196,7 @@ export const SERVICES: readonly Service[] = [
   },
   {
     index: "04",
-    title: "Motion & 3D Animation",
+    title: "Motion graphics & 3D Animation",
     blurb: "Dynamic micro-interactions, 3D renders, and compelling product demos.",
     items: [],
     image: "/images/service-4.jpg",
@@ -286,26 +286,26 @@ export interface Testimonial {
 
 export const TESTIMONIALS: readonly Testimonial[] = [
   {
-    quote: "Echo transformed our brand identity into an immersive digital experience that elevated our market presence.",
-    author: "Elena Rostova",
+    quote: "Hyper transformed our brand identity into an immersive digital experience that elevated our market presence.",
+    author: "Daniel Bailey ",
     role: "CEO at Veloce",
     avatar: "/images/avatar-1.jpg",
   },
   {
-    quote: "The speed, attention to detail, and smoothness of motion design blew our team away.",
-    author: "Marcus Vance",
+    quote: "Hyper’s speed, attention to detail, and seamless motion design exceeded our expectations and truly impressed the entire team.",
+    author: "Suyash Joshi",
     role: "Head of Product at Aether",
     avatar: "/images/avatar-2.jpg",
   },
   {
-    quote: "Exceptional visual taste and flawless technical execution. They delivered beyond expectations.",
-    author: "Sophia Chen",
+    quote: "Hyper combines exceptional visual taste with flawless technical execution, consistently delivering results that exceed expectations.",
+    author: "Joshua Swabey",
     role: "Design Lead at Lumina",
     avatar: "/images/avatar-3.jpg",
   },
   {
-    quote: "Working with Echo felt like an extension of our internal team. Seamless communication throughout.",
-    author: "David Kellar",
+    quote: "Working with Hyper felt like an extension of our internal team. Seamless communication throughout.",
+    author: "Peter Hughes",
     role: "Founder at Apex",
     avatar: "/images/avatar-4.jpg",
   },
@@ -315,9 +315,10 @@ export const TESTIMONIALS_INTRO = {
   label: "(TESTIMONIALS)",
   heading:
     "We deliver data-driven and result-focused work. Hear what our partners say about us.",
-  rating: "4.9",
-  ratingNote: "300+ Verified Reviews on Clutch",
+  rating: "4.6",
+  ratingNote: "75+ Verified Reviews on Clutch",
 } as const;
+
 
 /* ── PRICING ───────────────────────────────────────────────────────────────── */
 
@@ -332,6 +333,20 @@ export interface PricingTier {
   cta: string;
 }
 
+/** Indian Rupee currency formatting */
+export const CURRENCY = "INR";
+
+export const formatPrice = (price: number | null): string => {
+  if (price === null) return "Let's talk";
+
+  return new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: CURRENCY,
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  }).format(price);
+};
+
 /** Discount applied on the annual toggle, shown as a badge. */
 export const ANNUAL_DISCOUNT = 20;
 
@@ -339,14 +354,14 @@ export const PRICING: readonly PricingTier[] = [
   {
     name: "Starter",
     blurb: "Perfect for solo founders and early stage brands.",
-    monthly: 5999,
-    annual: 4799,
+    monthly: 9,
+    annual: 7,
     features: [
       "1 Senior designer",
-      "72 hours turnaround time",
-      "One request at a time",
+      "20 hours turnaround time per week",
+      "Two request at a time",
       "Pause or cancel anytime",
-      "Up to 40 hours per month",
+      "Up to 48 hours per month",
       "Async communication",
     ],
     featured: false,
@@ -355,14 +370,14 @@ export const PRICING: readonly PricingTier[] = [
   {
     name: "Growth",
     blurb: "For scaling teams that ship continuously.",
-    monthly: 9999,
-    annual: 7999,
+    monthly: 13,
+    annual: 10,
     features: [
       "2 Senior designers",
       "48 hours turnaround time",
       "Two requests at a time",
       "Pause or cancel anytime",
-      "Up to 80 hours per month",
+      "Up to 60 hours per month",
       "Weekly strategy call",
       "Priority support",
     ],
@@ -386,7 +401,6 @@ export const PRICING: readonly PricingTier[] = [
     cta: "Book a call",
   },
 ] as const;
-
 /* ── FAQ ───────────────────────────────────────────────────────────────────── */
 
 export interface FaqItem {
@@ -463,6 +477,6 @@ export const CTA = {
   blurb:
     "Have a project in mind? We'd love to hear about it. Let's create something great together!",
   buttonLabel: "GET IN TOUCH",
-  buttonHref: "mailto:hello@echostudio.com",
+  buttonHref: "mailto:sumit.biswas.pmi.9c@gmail.com",
   image: "/images/cta-bg.jpg",
 } as const;
