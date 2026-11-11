@@ -52,11 +52,3 @@ HYPER-Design-Studio/
 ├── README.md
 └── ...
 ```
-
-## Contributing
-
-Contributions are welcome. If you would like to improve the project, please fork the repository, make your changes, and open a pull request.
-
-## License
-
-This project does not currently include a license file. If you plan to publish or distribute it publicly, consider adding an appropriate open-source license.
