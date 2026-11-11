@@ -1,4 +1,4 @@
-# ECHO Design Studio
+## HYPER-Design-Studio
 
 A modern frontend project for a design studio experience built with TypeScript, CSS, and JavaScript.
 
