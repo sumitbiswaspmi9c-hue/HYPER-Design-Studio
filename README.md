@@ -4,7 +4,7 @@ A modern frontend project for a design studio experience built with TypeScript, 
 
 ## Overview
 
-ECHO Design Studio is a web-based project focused on creating polished, responsive, and visually engaging interfaces. This repository is structured for a design-forward application and is ready to be extended with components, pages, and styling systems.
+HYPER-Design-Studio is a web-based project focused on creating polished, responsive, and visually engaging interfaces. This repository is structured for a design-forward application and is ready to be extended with components, pages, and styling systems.
 
 ## Tech Stack
 
@@ -27,8 +27,8 @@ ECHO Design Studio is a web-based project focused on creating polished, responsi
 3. Start the development server
 
 ```bash
-git clone https://github.com/Jishnu09-siuu/ECHO-Design-Studio.git
-cd ECHO-Design-Studio
+git clone https://github.com/sumitbiswaspmi9c-hue/HYPER-Design-Studio.git
+cd HYPER-Design-Studio
 npm install
 npm run dev
 ```
@@ -44,7 +44,7 @@ npm run start
 ## Project Structure
 
 ```text
-ECHO-Design-Studio/
+HYPER-Design-Studio/
 ├── src/
 ├── public/
 ├── styles/
